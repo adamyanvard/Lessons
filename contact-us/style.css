@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+}
+.contact{
+    background-color:#b1dddd;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+.container{
+ width:90%;
+ margin: auto;
+}
+
+.contact-title{
+    padding:20px 0 30px 0;
+    color: #000000bf
+    
+     
+}
+.address-flex{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding:25px 150px 25px 25px;
+
+}
+.tell{
+    color: red;
+}
+.connection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h3{
+    font-size: 25px;
+    color: #000000bf;
+    margin-bottom: 15px;
+}
+.address{
+    font-size: 22px;
+    line-height: 1.5;
+    color: #000000bf;
+}
+.tell{
+    font-size: 22px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.location{
+    display: flex;
+    align-items: center;
+}
+
+ .email{
+    color: #0000ff91;
+    font-size: 22px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.main{
+  
+    margin-top:30px;
+}
+
+.main-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px;
+     background-color:white; 
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-between;
+    height: fit-content;
+ 
+}
+input{
+    width:42%;
+    margin:0 0 25px 0;
+    font-size: 25px;
+    padding:10px
+
+}
+.textarea{
+    width: 100%;
+    font-size: 25px;
+    padding:10px;
+    margin:0 0 25px 0;
+}
+.send{
+    padding: 15px;
+    background: red;
+    font-size: 22px;
+    color: white;
+    border: none;
+    border-radius: 10%;
+}
+.fa {
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .social-media{
+    margin-top: 10px;
+
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-github {
+    background: black;
+    color: white;
+
+  }
+  .fa-envelope{
+    color: #0000ff91;
+}
+.media{
+    width: 12%;
+
+}
